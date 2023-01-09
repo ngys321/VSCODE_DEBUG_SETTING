@@ -39,7 +39,9 @@ The best way to explain the difference between launch and attach is to think of 
 cf)
 ${workspaceFolder} :  vscode 를 켜면, 처음에 프로젝트를 여는데, 그 프로젝트 폴더의 경로를 의미함.
 
+cf)
 ${file} : vscode 에서 현재 보고있는(탭 중에서도 선택되어 있는) 코드 파일의 경로를 의미함.
+
 
 "console": 문자열. Where to launch the debug target: internal console, integrated terminal, or external terminal.
 
