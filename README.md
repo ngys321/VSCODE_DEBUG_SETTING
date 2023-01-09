@@ -1,9 +1,5 @@
 # VSCODE_DEBUG_SETTING
 
-## 참고 링크
-https://code.visualstudio.com/docs/editor/debugging
-
-틈틈이 읽어보고, 키워드 검색해서도 찾아서 읽어보자. 문서 내용이 좋다. 물론 모든 내용이 다 있는 것은 아니지만.
 
 ## 디레토리 구조
 VSCODE_DEBUG_SETTING
@@ -51,3 +47,10 @@ ${file} : vscode 에서 현재 보고있는(탭 중에서도 선택되어 있는
 
 "env": 딕셔너리,{}. {}안에서 여러 환경변수를 지정함. key(환경변수):value(값) 형식으로 저장됨. key 와 value 모두 문자열.
 
+
+
+
+## 참고 링크
+https://code.visualstudio.com/docs/editor/debugging
+
+틈틈이 읽어보고, 키워드 검색해서도 찾아서 읽어보자. 문서 내용이 좋다. 물론 모든 내용이 다 있는 것은 아니지만.
