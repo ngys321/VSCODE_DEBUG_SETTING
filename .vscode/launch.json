@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debugger-_code_sample1.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/_code_sample1.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                ""
+            ],
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/_folder1:${workspaceFolder}/_folder2",
+                "CUDA_VISIBLE_DEVICE": "0,1",
+            },
+        },
+    ]
+}
